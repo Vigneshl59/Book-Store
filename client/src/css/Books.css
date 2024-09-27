@@ -1,0 +1,112 @@
+/* Book.css */
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 20px;
+    flex-wrap: wrap;
+}
+
+/* Search bar container */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    align-items: center;
+    color:#4caf50;
+}
+
+/* Dropdown select */
+.dropdown-select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ecaf50;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-select:hover {
+    background-color: #f1f1f1;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+}
+
+/* Search input */
+.search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px; /* Adjust the width for the search input */
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.book-card .book-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.book-card .book-details {
+    padding: 10px;
+}
+
+.book-card .book-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.book-card button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.book-card button:hover {
+    background-color: #2980b9;
+}
+
+.book-card .btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+#btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#btn:hover {
+    background-color: #0056b4;
+} 
